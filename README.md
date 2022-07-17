@@ -20,13 +20,13 @@ Problem Statement
 Build a **Vehicle Number Plate Detection System** that should recognize many places with uttermost clarity in any circumstances. With a varying distance and colour combination, it should work for any Indian continent.
 
 
-**Solution** - Built a web-application, user will give an input as vehicle image and provide the **extracted number from vehicle number plate** as result.
+**Solution** - Built a web-application, user will give an input as vehicle image, and it will show the **extracted number from vehicle number plate** as result.
 
 Tools & Technology used: 
 -
 ---
 ```bash
-- Python | OpenCV | PyTesseract | Tensorflow | Keras | Image Data-Processing | 
+- Python | OpenCV | PyTesseract | Tensorflow-Keras (v2.7) | Image Data-Processing | 
   Deep Learning | Flask-API | HTML | Bootstrap | GitHub | AWS
 - TensorFlow Model: Inception-ResNet-v2
 - OS : Windows
@@ -37,7 +37,7 @@ Tools & Technology used:
 Demo Screen-Shot:
 -
 ---
-![WebApp.png](Demo/WebApp.png)
+![Web-app.png](Demo/Web-app.png)
 
 ---
 
