@@ -1,0 +1,28 @@
+2022-07-17 22:19:04 INFO: app start- working fine
+2022-07-17 22:19:04 WARNING:  * Debugger is active!
+2022-07-17 22:19:04 INFO:  * Debugger PIN: 556-857-457
+2022-07-17 22:19:04 INFO: landing on home page.
+2022-07-17 22:19:04 INFO: 127.0.0.1 - - [17/Jul/2022 22:19:04] "GET / HTTP/1.1" 200 -
+2022-07-17 22:19:26 INFO: Request = POST.
+
+2022-07-17 22:19:26 INFO: Process started.
+2022-07-17 22:19:26 INFO: File uploaded successfully.
+2022-07-17 22:20:50 INFO: Model loaded successfully.
+2022-07-17 22:20:50 INFO: Time taken for loading saved model: 0:01:24.096034.
+2022-07-17 22:20:50 INFO: image_processing - process started.
+2022-07-17 22:20:51 INFO: Read Image: done.
+2022-07-17 22:20:51 INFO: Size of the original image - Height: 720 & Width: 1080
+2022-07-17 22:20:51 INFO: Data preprocessing: done.
+2022-07-17 22:20:51 INFO: Reshape operation: done.
+2022-07-17 22:21:25 INFO: De-normalize operation: done.
+2022-07-17 22:21:25 INFO: Draw bounding on top the image: done.
+2022-07-17 22:21:25 INFO: Time taken for image_processing: 0:00:34.251253.
+2022-07-17 22:21:30 INFO: OCR - Bounding Box cropped image: done.
+2022-07-17 22:21:32 INFO: Extract text from image: done.
+2022-07-17 22:21:32 INFO: Extracted Number plate: HR26.BR 90449
+
+2022-07-17 22:21:32 INFO: Process completed successfully.
+2022-07-17 22:21:32 INFO: Time taken for the entire process: 0:02:06.181995.
+
+2022-07-17 22:21:32 INFO: 127.0.0.1 - - [17/Jul/2022 22:21:32] "POST /result HTTP/1.1" 200 -
+2022-07-17 22:21:33 INFO: 127.0.0.1 - - [17/Jul/2022 22:21:33] "GET /static/upload/car01.jpg HTTP/1.1" 200 -
