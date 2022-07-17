@@ -4,7 +4,8 @@
 
 Installing
 -
-For the web application [Vehicle Number Plate Detection](link), the code is written in python 3.8.
+---
+For the web application [Vehicle Number Plate Detection](link), the code is written in python 3.7.
 
 - Create new environment.
 - Install all the required packages and libraries using below command -  
@@ -13,16 +14,16 @@ pip install -r requirements.txt
 ```
 
 
-## Problem Statement 
-
+Problem Statement 
+-
 ---
 Build a **Vehicle Number Plate Detection System** that should recognize many places with uttermost clarity in any circumstances. With a varying distance and colour combination, it should work for any Indian continent.
 
 
-**Solution** - Solution that should be able to get an input as vehicle image and provide the result as extracted number from vehicle number plate.
+**Solution** - Built a web-application, user will give an input as vehicle image and provide the **extracted number from vehicle number plate** as result.
 
-### Tools & Technology used: 
-
+Tools & Technology used: 
+-
 ---
 ```bash
 - Python | OpenCV | PyTesseract | Tensorflow | Keras | Image Data-Processing | 
@@ -37,5 +38,12 @@ Demo Screen-Shot:
 -
 ---
 ![WebApp.png](Demo/WebApp.png)
+
 ---
 
+Demo Video:
+-
+---
+https://user-images.githubusercontent.com/82312234/179416611-86131acb-508e-466e-8daa-d7472556f97c.mp4
+
+---

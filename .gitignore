@@ -1,4 +1,5 @@
 .idea
-model_number_plate.h5
+__pycache__
+Saved_Model/model_number_plate.h5
 model_number_plate/
 imgs/train/
